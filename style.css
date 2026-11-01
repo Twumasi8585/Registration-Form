@@ -20,19 +20,6 @@ body{
    background: #242424;
 }
 
-/*.main{
-   width: 90%;
-   max-width: 450px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   background: #242424;
-   padding: 50px 60px 70px;
-   text-align: center; 
-    
-}*/
-
 
 .main h2{
    color: tomato;
@@ -47,13 +34,7 @@ body{
 .form{
     position: relative;
     margin-bottom: 28px;
-   /*margin: 15px 0;
-   display: flex;
-   align-items: center;
-   position: relative;
-   max-height: 65px;
-   transition: max-height 0.5s;
-   overflow: hidden;*/
+
 }
 
 .form input{
@@ -75,7 +56,14 @@ body{
     color: #fff;
 }
 
+#hidePassword {
+    display: none;
+    cursor: pointer;
+}
 
+#showPassword {
+    cursor: pointer;
+}
 
 i.fa-eye{
     color: tomato;
@@ -106,42 +94,6 @@ input::placeholder{
 }
 
 
-
-/*.btnbutton{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.btnbutton button{
-    flex-basis: 48%;
-    background: tomato;
-    color: #fff;
-    height: 40px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    transition: background 1s;
-    margin-top: 50px;
-    
-}
-
-.content{
-    height: 280px;
-}
-
-.btnbutton button:hover{
-    border-bottom-left-radius: 20px;
-}
-
-
-
-.btnbutton button.Disable{
-    background: #eaeaea;
-    color: #555;
-}*/
 
 .form label{
     position: absolute;
@@ -178,6 +130,7 @@ input::placeholder{
    background-color: tomato;
    color: #fff;
    border-radius: 5px;
+   cursor: pointer;
 }
 
 .Sub-Button button:hover{
